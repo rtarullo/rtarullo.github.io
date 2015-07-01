@@ -1,0 +1,122 @@
+body {
+  font-family: "Courier";
+  width: 960px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  z-index: 2;
+}
+
+header h1 {
+  text-align: center;
+}
+
+
+img {
+  width: 130px;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  z-index: 1;
+}
+
+.pigPic {
+  float: left;
+}
+
+.clearfix, .inlinePig, .posRelative, .posAbsolute {
+  border: 2px solid black;
+  background-color: silver;
+  width: 480px;
+  margin: 10px;
+  height: 170px;
+}
+
+.clearfix {
+  overflow: auto;
+    float: left;
+    bottom: 100px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.inlinePig, #inlineHead {
+  clear: both;
+  position: relative;
+}
+
+#inlineHead {
+  line-height: 100px;
+}
+.inlinePig {
+  display: inline-block;
+  top: -30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+
+.notShowing {
+  display: none;
+}
+
+.posRelative {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  display: inline-block; 
+  padding-right: 10px; 
+}
+
+#posAbsTitle {
+  position: relative;
+  top: 60px;
+}
+
+.posAbsSpace {
+  top: 80px;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  margin-bottom: 200px;
+}
+
+.posAbsolute {
+  position: absolute;
+  top: 150px;
+    padding-right: 10px; 
+      -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  height: 60px;
+}
+
+footer h3 {
+  color: white;
+  padding-right: 10px;
+  text-align: center;
+}
