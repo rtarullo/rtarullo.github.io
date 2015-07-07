@@ -1,6 +1,6 @@
 body {
   font-family: "Courier";
-  width: 960px;
+  margin: 0;
 }
 
 header {
@@ -18,15 +18,15 @@ header h1 {
 
 
 img {
-  width: 130px;
-  margin-right: -20px;
-  margin-left: -30px;
+  width: 8vw;
+  margin-right: -2vw;
+  margin-left: -2vw;
 }
 
 main {
   position: absolute;
-  top: 100px;
-  left: 20px;
+  top: 6vw;
+  left: 2vw;
   z-index: 1;
 }
 
@@ -35,29 +35,36 @@ main {
 }
 
 .clearfix, .inlinePig, .posRelative, .posAbsolute {
-  border: 2px solid black;
+  border: .15vw solid black;
   background-color: silver;
-  width: 370px;
-  margin: 10px;
-  height: 150px;
+  width: 26%;
+  margin: 2%;
 }
 
 li {
-  font-size: 12px;
+  font-size: .9vw;
 }
 
 figure figcaption {
-  font-size: 10px;
+  font-size: .7vw;
   text-align: center;
 }
 
 .clearfix {
   overflow: auto;
     float: left;
-    bottom: 100px;
+    margin-bottom: 14vh;
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.4vw;
+}
+
+p {
+  font-size: 1.1vw;
 }
 
 ul {
@@ -70,15 +77,15 @@ ul {
 }
 
 #inlineHead {
-  line-height: 100px;
+  line-height: 15vh;
 }
 .inlinePig {
   display: inline-block;
-  top: -30px;
+  top: -7vh;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 15px;
+  padding: 1vw;
 }
 
 
@@ -88,32 +95,32 @@ ul {
 
 .posRelative {
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 5vw;
+  left: 10vw;
   display: inline-block; 
-  padding-right: 10px; 
 }
 
 #posAbsTitle {
   position: relative;
-  top: 60px;
+  top: 14vh;
 }
 
 .posAbsSpace {
-  top: 80px;
+  top: 15vh;
   position: relative;
-  height: 500px;
-  width: 500px;
+  height: 37vw;
+  width: 37vw;
   background-color: blue;
   margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 50vh;
 }
 
 .posAbsolute {
   position: absolute;
-  top: 150px;
-  left: 50px;
-    padding-right: 10px; 
+  top: 35%;
+  width: 25vw;
+  left: 13.5%;
+    padding-right: 1vw; 
       -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -125,11 +132,14 @@ footer {
   width: 100%;
   bottom: 0;
   z-index: 2;
-  height: 60px;
+  height: 8vh;
 }
 
 footer h3 {
   color: white;
-  padding-right: 10px;
   text-align: center;
+}
+
+section {
+  margin: 0 auto;
 }
