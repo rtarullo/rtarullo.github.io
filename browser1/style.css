@@ -1,6 +1,79 @@
+
+
+@media screen and (min-device-width: 1px, max-device-width:; 767px) {
+	body {
+		width: 85%;
+	margin: 0;
+}
+
 header {
-	background-color: yellow;
+	background-color: black;
+	color: white;
 	width: 100%;
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	top: 0;
+}
+
+li {
+	display: inline;
+}
+
+#listHeight {
+	margin-top: 0;
+}
+
+section {
+	margin-top: 3vw;
+	margin-left: -18vw;
+
+}
+
+div {
+	margin-left: 30%;
+	width: 70%;
+	height: 5vw;
+}
+
+.color1 {
+	background-color: red;
+}
+
+.color2 {
+	background-color: blue;
+}
+
+.color3 {
+	background-color: green;
+}
+
+.color4 {
+	background-color: yellow;
+}
+
+.color5 {
+	background-color: purple;
+}
+}
+
+@media screen and (min-device-width: 768px) {
+	body {
+	margin: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
 }
 
 nav {
@@ -8,20 +81,111 @@ nav {
 	width: 30%;
 }
 
+ul {
+	list-style-type: none;
+	top: 0;
+}
+
+li {
+	line-height: 5vw;
+}
+
+#listHeight {
+	margin-top: 0;
+}
+
 section {
+	margin-top: 3vw;
+	margin-left: -18vw;
+
+}
+
+div {
 	margin-left: 30%;
-
+	width: 70%;
+	height: 5vw;
 }
 
-
-//*@media screen and (min-device-width: 1px) {
-	float: none;
+.color1 {
+	background-color: red;
 }
 
-@media screen and (min-device-width: 768px) {
-	float: none;
+.color2 {
+	background-color: blue;
+}
+
+.color3 {
+	background-color: green;
+}
+
+.color4 {
+	background-color: yellow;
+}
+
+.color5 {
+	background-color: purple;
+}
 }
 
 @media screen and (min-device-width: 1024px) {
-	float: none;
+	body {
+	margin: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	float: left;
+	width: 30%;
+}
+
+ul {
+	list-style-type: none;
+	top: 0;
+}
+
+li {
+	line-height: 5vw;
+}
+
+#listHeight {
+	margin-top: 0;
+}
+
+section {
+	margin-top: 3vw;
+	margin-left: -18vw;
+
+}
+
+div {
+	margin-left: 30%;
+	width: 70%;
+	height: 5vw;
+}
+
+.color1 {
+	background-color: red;
+}
+
+.color2 {
+	background-color: blue;
+}
+
+.color3 {
+	background-color: green;
+}
+
+.color4 {
+	background-color: yellow;
+}
+
+.color5 {
+	background-color: purple;
+}
 }
