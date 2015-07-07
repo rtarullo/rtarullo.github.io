@@ -1,3 +1,27 @@
-@media screen and (min-device-width: 1px) {
+header {
+	background-color: yellow;
+	width: 100%;
+}
+
+nav {
+	float: left;
+	width: 30%;
+}
+
+section {
+	margin-left: 30%;
+
+}
+
+
+//*@media screen and (min-device-width: 1px) {
+	float: none;
+}
+
+@media screen and (min-device-width: 768px) {
+	float: none;
+}
+
+@media screen and (min-device-width: 1024px) {
 	float: none;
 }
