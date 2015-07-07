@@ -1,6 +1,6 @@
 
 
-@media screen and (min-device-width: 1px, max-device-width:; 767px) {
+@media screen and (min-device-width: 1px, max-device-width: 767px;) {
 	body {
 		width: 85%;
 	margin: 0;
