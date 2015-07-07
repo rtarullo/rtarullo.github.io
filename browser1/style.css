@@ -1,8 +1,4 @@
-
-
-@media screen and (min-device-width: 1px, max-device-width: 767px;) {
 	body {
-		width: 85%;
 	margin: 0;
 }
 
@@ -14,8 +10,8 @@ header {
 }
 
 nav {
-	display: inline-block;
-	margin: 0 auto;
+	float: left;
+	width: 30%;
 }
 
 ul {
@@ -25,6 +21,8 @@ ul {
 
 li {
 	display: inline;
+	line-height: 5vw;
+	font-size: 12px;
 }
 
 #listHeight {
@@ -62,119 +60,55 @@ div {
 .color5 {
 	background-color: purple;
 }
+
+@media screen and (min-device-width: 1px) {
+	main {
+		margin: 0 auto;
+	}
+
+	
 }
 
 @media screen and (min-device-width: 768px) {
-	body {
-	margin: 0;
-}
+			li {
+		display: block;
+		font-size: 18px;
 
-header {
-	background-color: black;
-	color: white;
-	width: 100%;
-	text-align: center;
-}
-
-nav {
-	float: left;
-	width: 30%;
-}
-
-ul {
-	list-style-type: none;
-	top: 0;
-}
-
-li {
-	line-height: 5vw;
-}
-
-#listHeight {
-	margin-top: 0;
-}
-
-section {
-	margin-top: 3vw;
-	margin-left: -18vw;
-
-}
-
-div {
-	margin-left: 30%;
-	width: 70%;
-	height: 5vw;
-}
-
+	}
 .color1 {
-	background-color: red;
-}
-
-.color2 {
-	background-color: blue;
-}
-
-.color3 {
 	background-color: green;
 }
 
+.color2 {
+	background-color: white;
+}
+
+.color3 {
+	background-color: blue;
+}
+
 .color4 {
-	background-color: yellow;
+	background-color: white;
 }
 
 .color5 {
-	background-color: purple;
+	background-color: green;
 }
+
 }
 
 @media screen and (min-device-width: 1024px) {
-	body {
-	margin: 0;
-}
+		li {
+		display: block;
+		font-size: 22px;
 
-header {
-	background-color: black;
-	color: white;
-	width: 100%;
-	text-align: center;
-}
-
-nav {
-	float: left;
-	width: 30%;
-}
-
-ul {
-	list-style-type: none;
-	top: 0;
-}
-
-li {
-	line-height: 5vw;
-}
-
-#listHeight {
-	margin-top: 0;
-}
-
-section {
-	margin-top: 3vw;
-	margin-left: -18vw;
-
-}
-
-div {
-	margin-left: 30%;
-	width: 70%;
-	height: 5vw;
-}
-
+	}
 .color1 {
-	background-color: red;
+	background-color: blue;
 }
 
 .color2 {
-	background-color: blue;
+	background-color: white;
 }
 
 .color3 {
@@ -182,10 +116,11 @@ div {
 }
 
 .color4 {
-	background-color: yellow;
+	background-color: white;
 }
 
 .color5 {
-	background-color: purple;
+	background-color: blue;
 }
+
 }
