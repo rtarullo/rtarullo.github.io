@@ -1,126 +1,98 @@
+@media screen and (min-device-width: 1px) {
 	body {
 	margin: 0;
+	font-family: Open Sans, sans-serif;
+}
+
+main {
+	width: 95%;
+	margin: 0 auto;
 }
 
 header {
-	background-color: black;
-	color: white;
 	width: 100%;
-	text-align: center;
+	font-size: 3vw;
 }
 
-nav {
-	float: left;
-	width: 30%;
-}
-
-ul {
-	list-style-type: none;
-	top: 0;
-}
-
-li {
-	display: inline;
-	line-height: 5vw;
-	font-size: 12px;
-}
-
-#listHeight {
-	margin-top: 0;
+hr {
+	border: none;
+	height: .2vw;
+	background-color: black;
+	margin-bottom: 5vw;
 }
 
 section {
-	margin-top: 3vw;
-	margin-left: -18vw;
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 6vw;
 
 }
 
-div {
-	margin-left: 30%;
-	width: 70%;
-	height: 5vw;
+p {
+	font-size: 12px;
 }
 
-.color1 {
-	background-color: red;
+#wholeGroup, #smallGroup {
+	display: block;
+	margin: 0 auto;
+	width: 65vw;
+	border: 1px solid blue;
+	margin-bottom: 5vw;
 }
-
-.color2 {
-	background-color: blue;
-}
-
-.color3 {
-	background-color: green;
-}
-
-.color4 {
-	background-color: yellow;
-}
-
-.color5 {
-	background-color: purple;
-}
-
-@media screen and (min-device-width: 1px) {
-	main {
-		margin: 0 auto;
-	}
-
-	
 }
 
 @media screen and (min-device-width: 768px) {
-			li {
-		display: block;
-		font-size: 18px;
-
+	p {
+		font-size: 16px;
 	}
-.color1 {
-	background-color: green;
-}
 
-.color2 {
-	background-color: white;
-}
+	#wholeGroup {
+		border: 3px solid silver;
+	}
 
-.color3 {
-	background-color: blue;
-}
+	#smallGroup {
+		float: right;
+		border: 3px solid silver;
+		width: 20vw;
+    margin: 0 0 1vw 1vw;
+	}
 
-.color4 {
-	background-color: white;
-}
-
-.color5 {
-	background-color: green;
-}
 
 }
 
 @media screen and (min-device-width: 1024px) {
-		li {
-		display: block;
-		font-size: 22px;
-
+	main {
+		width: 85%;
 	}
-.color1 {
-	background-color: blue;
-}
 
-.color2 {
-	background-color: white;
-}
+	hr {
+		display: none;
+	}
+	p {
+		font-size: 22px;
+	}
 
-.color3 {
-	background-color: green;
-}
+	section {
+		width: 100%;
+		margin: 0;
+	}
 
-.color4 {
-	background-color: white;
-}
+	#wholeGroup {
+		margin: 0 1vw 1vw 0;
+		border: 5px solid black;
+		width:  50vw;
+		float: left;
+	}
 
-.color5 {
-	background-color: blue;
-}
+	#smallGroup {
+		display: none;
+	}	
+
+	.soccerStory {
+		margin: 0 auto;
+		width: 90%;
+		position: relative;
+	}
 
 }
