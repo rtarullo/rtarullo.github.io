@@ -51,35 +51,7 @@ p {
 		font-size: 16px;
 	}
 
-	#wholeGroup {
-		border: 3px solid silver;
-		width: 30vw;
-		float: left;
-	}
-
-	#smallGroup {
-		float: right;
-		border: 3px solid silver;
-		width: 20vw;
-    margin: 0 0 1vw 1vw;
-	}
-
-
-}
-
-@media screen and (min-device-width: 1024px) {
-	main {
-		width: 85%;
-	}
-
-	hr {
-		display: none;
-	}
-	p {
-		font-size: 22px;
-	}
-
-	section {
+		section {
 		width: 100%;
 		margin: 0;
 	}
@@ -100,6 +72,27 @@ p {
 		width: 90%;
 		position: relative;
 	}
+
+}
+
+@media screen and (min-device-width: 1024px) {
+	main {
+		width: 85%;
+	}
+
+	hr {
+		display: none;
+	}
+	p {
+		font-size: 22px;
+	}
+
+	section {
+		width: 100%;
+		margin: 0;
+	}
+
+	
 
 	#wholeGroup {
 		margin: 0 1vw 1vw 0;
