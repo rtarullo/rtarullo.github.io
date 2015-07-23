@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 
 body {
-	background-color: $lightbg;
+	background-color: @lightbg;
 	font-family: 'Satisfy', cursive;
 }
 
@@ -21,4 +21,4 @@ body {
 }
 
 /*Colors*/
-$lightbg: #F2D9CB;
+@lightbg: #F2D9CB;
