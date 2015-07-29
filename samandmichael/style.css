@@ -1,3 +1,21 @@
 body {
 	background-color: #EBAD99;
 }
+
+.waterSplash {
+	width: 611px;
+	height: 613px;
+	border-radius: 50%;
+	background-image: url('http://i4.irishmirror.ie/incoming/article3643352.ece/ALTERNATES/s615b/Kanye-West-spotted-with-a-rare-smile-on-his-face.jpg');
+	transition: 0.5s ease;
+	margin: 0 auto;
+}
+
+.waterSplash:hover {
+	transform: skew(80deg, 80deg);
+}
+
+.waterSplash:active {
+	transform: scale(10);
+	background-color: green;
+}
