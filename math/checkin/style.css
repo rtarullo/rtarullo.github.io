@@ -1,0 +1,18 @@
+body, div {
+	margin: 0;
+}
+
+img	{
+	display: hidden;
+	width: 100%;
+	margin: 0;
+}
+
+p {
+	font-size: 12vw;
+	display: block;
+	position: absolute;
+	top: -20%;
+	left: 6%;
+	color: white;
+}
