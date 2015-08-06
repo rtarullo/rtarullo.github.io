@@ -23,10 +23,10 @@
 $(document).ready(function(){
 	$("#fullMenu").hide(); 
 	// $("#nameTime").html("Hello " + name "!");
-    $("#menuIcon").click(function(){
+    $("#menuIcon").on('click', function(){
         $("#fullMenu").show();
     });
-    $("#leaveMenu").click(function(){
+    $("#leaveMenu").on('click', function(){
     	$("#fullMenu").hide();
 
     });
@@ -40,9 +40,9 @@ $(document).ready(function(){
 
 	});
     $("#shape").click(function(){
-        $("img").attr("width", "400");
+        $("img").width("400");
     });
     $("#back").click(function(){
-        $("img").attr("width", "200");
+        $("img").width("200");
     });
 });

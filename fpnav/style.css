@@ -8,12 +8,12 @@ body {
 
 }
 
-/*.everything {
-
+.everything {
+	position: relative;
 	margin: 0 auto !important;
 	max-width: 960px;
 	display: block;
-}*/
+}
 
 
  .currentUnit {
@@ -79,7 +79,7 @@ h1 {
 /*	left: 200px;*/
 	display: block;
 	position: relative;
-	background-color: blue;
+	background-color: #429C6F;
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
