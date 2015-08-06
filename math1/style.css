@@ -1,13 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Lora);
 
 body {
 	font-family: "Open Sans", sans-serif;
-	min-width: 834px;
+	min-width: 924px;
 	max-width: 985px;
 	margin: 0 auto;
-}
+	background-color: #85dbbb;}
+
+	* {
+		box-sizing: border-box;
+	}
 
 img {
 	width: 70px;
@@ -24,10 +29,14 @@ img {
 	position: relative;
 	margin: 0 auto;
 	width: 85%;
-	min-width: 20%;
+	min-width: 742px;
 	max-width: 85%;
 	padding-top: 20px;
 	padding-bottom: 40px;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	
 
 }
 
@@ -93,7 +102,7 @@ section	{
 	height: 20%;
 	width: 31.6%;
 	padding: 15px;
-	border: 10px dotted #dba6bc;
+	border: 3px dotted #dba6bc;
 	box-sizing: border-box;
 	vertical-align: top;
 	height: 300px;
@@ -134,16 +143,27 @@ h3 {
 .quote {
 	display: block;
 	position: absolute;
-	left: 59.5%;
-	width: 30%;
-	box-shadow: 5px 5px 5px 5px silver;
-	padding: 10px;	
+	left: 64.5%;
+	width: 200px;
+	height: 155px;
+	/*border: 3px solid silver;*/
+	/*box-shadow: 5px 5px 5px 5px silver;*/
+	padding: 20px;	
 	top: -60px;
 	/*top: 5%;*/
 	/*margin-bottom: 50px;*/
-	border-radius: 20px;
+	/*border-radius: 15px;*/
+	font-size: 11px;
+	background-color: #d2dbd8;
+	background-size: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	background-image: url("http://www.themeshack.net/pspframes/images/Silver-White/013-024/Silver-White024.png");
+	font-family: 'Lora', serif;
+	/*color: white;*/
 	font-size: 12px;
-	/*font-family: 'Dancing Script', cursive;*/
 }
 
 a {
