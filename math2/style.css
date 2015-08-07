@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+	/*max-width: 1024px;*/
+	background-color: silver;
+	/*padding: 0;*/
+	/*position: relative;*/
+}
+
+.everything {
+	width: 85%;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	height: 100vw;
+	/*z-index: -2;*/
+	margin-top: 35.75%;
+	padding: 0;
+
+}
+
+#background {
+	/*left: -20%;*/
+	/*height: 300px;*/
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	margin: 0;
+	width: 102%;
+	left: -2%;
+	/*top: -15%;*/
+	margin: 0 auto;
+	/*margin-left: -5px;*/
+	margin-top: -35.75%;
+	/*z-index: 2;*/
+	/*max-width: 1024px;*/
+}
+
+h1	{
+	font-family: "Lobster", cursive;
+	text-align: center;
+	font-size: 7vw;
+	color: white;
+	top: -15%;
+	display: block;
+	position: absolute;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	/*z-index: 6;*/
+	/*top: 20%;*/
+	/*display: block;*/
+	/*position: relative;*/
+}
+
+.resources {
+	width: 3vw;
+	float: right;
+	margin: 1vw;
+}
+
+.navBar {
+	/*background-color: black;*/
+	display: block;
+	position: absolute;
+	width: 103%;
+	top: -1vw;
+	/*border: 5px solid black;*/
+	left: -2%;
+
+}
+#celebration {
+	background-color: white;
+	height: 30vw;
+	width: 100%;
+	display: block;
+	position: relative;
+	/*left: 1.9%;*/
+	top: 3%;
+	float: left;
+	/*z-index: -2;*/
+}
+
+#current {
+	width: 30%;
+	background-color: orange;
+	display: block;
+	position: absolute;
+	float: left;
+	/*z-index: 5;*/
+}
