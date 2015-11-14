@@ -1,0 +1,49 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+      <link rel="import" href="bower_components/polymer-slidenav/dist/polymer-slidenav.html">
+
+<dom-module id="picture-frame">
+
+  <template>
+    <!-- scoped CSS for this element -->
+    <style>
+      div {
+        display: inline-block;
+        background-color: #ccc;
+        border-radius: 8px;
+        padding: 4px;
+      }
+    </style>
+    <div>
+      <!-- any children are rendered here -->
+      <content></content>
+    </div>
+
+  </template>
+
+  <script>
+document.addEventListener('polymer-ready', function() {
+ var navicon = document.getElementById('navicon');
+ var drawerPanel = document.getElementById('drawerPanel');
+ navicon.addEventListener('click', function() {
+   drawerPanel.togglePanel();
+ });
+
+ window.onhashchange=hash_nav;
+});
+
+function hash_nav() { 
+  var nav_links = document.querySelectorAll('core-menu paper-item a');
+  for(var i = 0; i < nav_links.length; i++){
+    if(nav_links[i].hash === window.location.hash){
+      document.querySelector('#nav_menu').selected = i;
+      document.querySelector('#content-pages').selected = i;
+      document.getElementById('drawerPanel').togglePanel();
+
+      break;
+    }
+  }
+};
+  </script>
+
+</dom-module>

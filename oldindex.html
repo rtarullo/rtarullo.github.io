@@ -1,0 +1,181 @@
+<!-- <!DOCTYPE html> 
+<html>
+  <head>
+    <title>Polymer Test</title>
+  <script type="text/javascript"
+  src="bower_components/webcomponentsjs/webcomponents.min.js">
+</script>
+<link rel="import" href="elements/hello-udacity.html">
+<link rel="stylesheet" href="style.css">
+<link rel="import" href="app://bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="app://bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+  <link rel="import"
+        href="/bower_components/paper-drawer-panel/paper-drawer-panel.html">
+  <link rel="import" 
+        href="/bower_components/paper-header-panel/paper-header-panel.html">
+  <link rel="import" 
+        href="/bower_components/paper-toolbar/paper-toolbar.html">
+  <link rel="import" 
+        href="/bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" 
+        href="/bower_components/iron-icons/iron-icons.html">
+  <link rel="import" 
+        href="/bower_components/iron-flex-layout/iron-flex-layout.html">
+  </head>
+  <body>
+    <hello-udacity></hello-udacity>
+    <ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+</ul>
+<div class="container" id="demo1">
+          <div>one</div>
+          <div>two</div>
+          <div>three</div>
+        </div>
+
+
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="import" href="http://kasperpeulen.github.io/PolymerElements/all.html" -->>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+  src="bower_components/webcomponentsjs/webcomponents.min.js">
+</script>
+<link rel="import" href="elements/hello-udacity.html">
+  </head>
+  <body>
+      <hello-udacity></hello-udacity>
+      <img src="small.jpg"
+     srcset="large.jpg 1024w, medium.jpg 640w, small.jpg 320w"
+     sizes="(min-width: 36em) 33.3vw, 100vw"
+     alt="A rad wolf">
+  <!-- <img src="small.png"
+     srcset="large.png 1024w, medium.png 640w, small.png 320w"
+     sizes="(max-width: 480px) 100vw, (max-width: 900px) 33vw, 254px"> -->
+<!--      <div class="horizontal layout">
+  <div class="flex-4"><p>flex three</p></div>
+  <div class="flex-4"><p>flex</p></div>
+  <div class="flex-4"><p>flex two</p></div>
+</div> -->
+<!-- <ul class="navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Contact</a></li>
+</ul> -->
+<!-- <div class="horizontal layout">
+  <div class="flex-4"><p>flex three</p></div>
+  <div class="flex-4"><p>flex</p></div>
+  <div class="flex-4"><p>flex two</p></div>
+</div> -->
+    <!-- <h1>Polymer 1.0 Layout Classes</h1>
+    <div class="horizontal layout">
+      <div><p>div</p></div>
+      <div class="flex"><p>flex (horizontal layout)</p></div>
+      <div><p>div</p></div>
+    </div>
+
+    <div class="vertical layout" style="height:250px">
+      <div><p>div</p></div>
+      <div class="flex"><p>flex (vertical layout)</p></div>
+      <div><p>div</p></div>
+    </div>
+    
+    <div class="horizontal layout">
+      <div class="flex-3"><p>flex three</p></div>
+      <div class="flex"><p>flex</p></div>
+      <div class="flex-2"><p>flex two</p></div>
+    </div>
+    
+    <div class="horizontal layout" style="height:100px">
+      <div><p>horizontal default</p></div>
+    </div>
+
+    <div class="horizontal layout start" style="height:100px">
+      <div><p>horizontal start</p></div>
+    </div>
+
+    <div class="horizontal layout center" style="height:100px">
+      <div><p>horizontal center</p></div>
+    </div>
+    
+    <div class="horizontal layout end" style="height:100px">
+      <div><p>horizontal end</p></div>
+    </div>
+
+    <div class="vertical layout" style="height:100px">
+      <div><p>vertical default</p></div>
+    </div>
+
+    <div class="vertical layout start" style="height:100px">
+      <div><p>vertical start</p></div>
+    </div>
+    
+    <div class="vertical layout center" style="height:100px">
+      <div><p>vertical center</p></div>
+    </div>
+
+    <div class="vertical layout end" style="height:100px">
+      <div><p>vertical end</p></div>
+    </div>
+
+    <div class="horizontal layout start-justified" style="height:100px">
+      <div><p>horizontal start-justified</p></div>
+    </div>
+
+    <div class="horizontal layout center-justified" style="height:100px">
+      <div><p>horizontal layout center-justified</p></div>
+    </div>
+
+    <div class="horizontal layout end-justified" style="height:100px">
+      <div><p>horizontal layout end-justified</p></div>
+    </div>
+
+    <div class="vertical justified layout" style="height:150px">
+      <div><p>justified</p></div>
+      <div><p>justified</p></div>
+      <div><p>justified</p></div>
+    </div>
+
+    <div class="horizontal around-justified layout">
+      <div><p>around-justified</p></div>
+      <div><p>around-justified</p></div>
+    </div>
+
+    <div class="horizontal layout" style="height:150px">
+      <div class="flex self-start"><p>self-start</p></div>
+      <div class="flex self-center"><p>self-center</p></div>
+      <div class="flex self-end"><p>self-end</p></div>
+      <div class="flex self-stretch"><p>self-stretch</p></div>
+    </div>
+
+    <div class="horizontal layout wrap" style="width:150px; height:70px">
+      <div><p>horizontal</p></div>
+      <div><p>lay</p></div>
+      <div><p>out</p></div>
+      <div><p>wrap</p></div>
+    </div>
+
+    <div class="horizontal-reverse layout">
+      <div><p>horizontal</p></div>
+      <div><p>reverse</p></div>
+      <div><p>layout</p></div>
+    </div>
+    
+    <div class="vertical-reverse layout" style="height:150px">
+      <div><p>vertical</p></div>
+      <div><p>reverse</p></div>
+      <div><p>layout</p></div>
+    </div> -->
+    
+  </body>
+</html>
