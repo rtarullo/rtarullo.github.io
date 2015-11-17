@@ -1,0 +1,39 @@
+YUI.Env.JSONP.yui_3_16_0_1_1447775514014_16118({
+   "ads" : [
+      {
+         "beacon" : "https://beap.gemini.yahoo.com/mbcsc?bv=1.0.0&es=KIWI34oGIS8gY_Bmx5P7YYXNskbSuGUqI3uF.sMri85lKZefgJJAsGOagNJBYRquacjWE8GxH9qU7n0zM6DNOVKfWskpZqMNuY2GnhElQLjheQlx0aL3YetlBSK0eqfXdhsOD1aSoIQG09UEu4vTJe9w5x7MZkHL6M1P36jfWjK2pvjtnOmgtSZlCyQ5SQrbHP_SAjLYzGTKu.npN57LtQ9Jgtq_wMD0Ip3HCvUdnbMADFdNnoLOYOi3gx4t2ygq7SD.nXmV6E1tjYlROZRUJIx_91ziDbidp2qZvOrZkLxT4mBqEmUngKcF01RDqiCdG7.UUEJ1NKm3Bk3Fgb9DvCGUQtyTLQXoP1SDaLUcb5_3lspwuZDXCDRx8XLvMvfIM.i8&ap=$(AD_POSN)",
+         "bidUSD" : 0.430,
+         "ccCode" : "STRM",
+         "clickProbability" : 0.01367534640554299,
+         "creativeId" : 30309896243,
+         "displayUrl" : "http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/995982809947b4b1dff8424606f350dd.jpeg",
+         "index" : 1,
+         "landingPageUrl" : "http://www.iforex.ae/landing_pages/br1/ar/3StepsOfTrading/?content=3StepsOfTrading&SID=378164&prepixel=yahoo_ads_iforex",
+         "sponsoredBy" : "iFOREX",
+         "tag" : "{\"clickUrl\":\"https://beap.gemini.yahoo.com/mbclk?bv=1.0.0&es=DybRcXMGIS.UoQZaLYNjGg1w5GVqSploeo3wadzevy.Hdf2Kx6SNFAxHHvgsZH1.EOi1fLJoxrPjH8GZu_WN2lQeseaoYbfzcnfSHmY9tuTrh2yqzkYOX_2cDO7HklJClWjBdWH8jJK6bELvB59zWbOSU2aYMHd0UQAlC1YwhDozKFNaUUCnEqA.HsSvKCOPoXDPf3tzf7I2dEHKShFnIV1ILSLWfWgtOV5JIuHdqca3NS.xrn5vVreC1FnmciiC1k79XwZjYg5Yg7otcxY4ocOoHFHNR6N0jmEDNxKvaPkyicwxSXQ7RDMCAA_5Hdz9Fysqmhisx8UYcZdhNMJZdrtbyY9AkGtoq16jxVdqerNOw9en1o.LpEHJ4Bc5O7Fdy1QWOmRvqpUhsyFPbq_orhTySQOJR5dtEWkDQN2dEK_j6noNQu_8ksjD_cYCHRrQqF3IuNOv_r6rDPpgOwxneg3lfNci.5nkCCaD6yCES9UYZiPNAHgOeg1ZYhujHvohHVa4LVie2gbrMgSJQLGeZSad_iifAU7GVoC2hfvzgF__g7FbXYp_rG87f3I-%26lp=\",\"headline\":\"Profit Directly Online\",\"summary\":\"Get free 1 on 1 training and learn how to profit as a home trader.Profit From Daily Forex Trading.\",\"uuid\":\"30309896243\",\"source\":\"iFOREX\",\"landingUrl\":\"http://www.iforex.ae/landing_pages/br1/ar/3StepsOfTrading/?content=3StepsOfTrading&SID=378164&prepixel=yahoo_ads_iforex\",\"ad_feedback_beacon\":\"https://us.af.beap.bc.yahoo.com/af?bv=1.0.0&bs=(15j87l6cs(gid$671c4f2a-8d43-11e5-b941-1bb786c378b1-7ff60fbf3700,st$1447775633710000,li$0,cr$30309896243,dmn$iforex.ae,srv$3,exp$1447782833710000,ct$27,v$1.0,adv$927221,pbid$1,seid$4964388))&r=1447775633710&al=$(AD_FEEDBACK)\",\"advertiser_id\":\"927221\",\"objective\":\"VISIT_WEB\",\"passThroughFields\":\"\",\"image\":\"http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/995982809947b4b1dff8424606f350dd.jpeg\",\"hqImage\":\"https://s.yimg.com/av/moneyball/ads/1430656366849-5947.jpg\",\"origImg\":\"https://s.yimg.com/av/moneyball/ads/1430656424962-1832.jpg\",\"secImage\":\"https://s.yimg.com/av/curveball/ads/pr/RESIZE/82x82/995982809947b4b1dff8424606f350dd.jpeg\",\"secHqImage\":\"https://s.yimg.com/av/moneyball/ads/1430656366849-5947.jpg\",\"secOrigImg\":\"https://s.yimg.com/av/moneyball/ads/1430656424962-1832.jpg\",\"imageHeight\":82,\"imageWidth\":82,\"hqImageHeight\":627,\"hqImageWidth\":1200,\"origImgHeight\":627,\"origImgWidth\":627}"
+      },
+      {
+         "beacon" : "https://beap.gemini.yahoo.com/mbcsc?bv=1.0.0&es=SAff1GkGIS.Nc0vjsLybwv.v0cSxss4Zp4f1VFH.bXDVu7mt6MI8fC_KB9D2raS3hzypTIWJRWwZisXx.gspdtGCf.fIDjcW0icBzRXbD41lz7AJlNv6YcqkWIME4fqUF3qZ6lSOGL1SjyHxOInj.n1GKkPY44t7YCSIp8tD9fot_P47BZVSgJ2LsJRzNKnH_lHECAVc9vCt.c3iknI5zb.QCdrx19ZU.QOApxp0UXTiND0lhp6K1xnpAXpAfeWPFbNnv8OfucACFWhXN0dT6d2xjIs0WzNdCj0_R6S0a7Wi585AUZrQq227syLr6VHHmBCU6vBa6.BqXQwOdn.2r.kup7Y3decWcolU9WF44VEIccIzgqnh7J63UmrJv.hi6g--&ap=$(AD_POSN)",
+         "bidUSD" : 0.050,
+         "ccCode" : "STRM",
+         "clickProbability" : 0.01140855764213453,
+         "creativeId" : 30983738204,
+         "displayUrl" : "http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/7a0564f3dd79a2a29b2b9e4fb3b56f89.png",
+         "index" : 2,
+         "landingPageUrl" : "http://www.facebook.com/campaign/landing.php?campaign_id=864858356943983&partner_id=yahoo_stream&placement=Kuwait&creative=EnglishMail&extra_1=Mobile&extra_2=c&keyword=30983738204",
+         "sponsoredBy" : "Facebook",
+         "tag" : "{\"clickUrl\":\"https://beap.gemini.yahoo.com/mbclk?bv=1.0.0&es=UFWkF5YGIS8f87MX7wtcQIEnMX29n4.2qxiV5.S4lWZVNmIYenfW.kbeS0B9_5MAvEsoHhAR.JxUGsyRdb4wx8i8YeU8dctXdPLwMMEEIfgYDWykjYrQrfvDSXx8he.3gWdQVvmLOEwWe_Hz7MWzeXFpAbd68tFB1idobw_qhtP6EQGc5rlV4TQgoFTuVtykp3VA1rzMqN2MGRBBSAdvSYy81JtpPg2SadnLgxPOqyC.zvfcRMMmDsBsm.OXnX3inzMmmSLCEz9qhH4_HBFNUyz1bxGJLGn00BPn3XclFMycOYg4Y7vXSSJTvMv8og1JTVtbfK2ameaMkQhRMHCGHG8CrDbmKs9KAufPPRcw7OqCnMmAb3RC8QQZ00QLDSwVKjJMOiwwW0wdBv_8c7dzYE5RbU8duDqyhOHQ1EnDNbMR3wRIT9hCgsxvqVbJw2rGMT.t3vVCovUD_.JihP.1FzmBzjQSIAqTUITjFocMuCtU8Gcj03vajhpIjPe7FL6vo6bqp_kjYHQvgD3C1BoBOBxR0.IHzQ2CbshX2mN7bDs4Nt_acfYy5bEW0gqYrO4mRwlUq1XWDwX5qTBL0c5ll0dSfzF9qJCy6r59Lp.CpudJgsHsJcNKpmn1DlrTRPLeq.CiQqZEsdeNnOK7Rrs-%26lp=\",\"headline\":\"Facebook® Account Sign Up. Join for Free Today!\",\"summary\":\"Connect with friends and the world around you on Facebook. Sign up, it’s free and always will be.\",\"uuid\":\"30983738204\",\"source\":\"Facebook\",\"landingUrl\":\"http://www.facebook.com/campaign/landing.php?campaign_id=864858356943983&partner_id=yahoo_stream&placement=Kuwait&creative=EnglishMail&extra_1=Mobile&extra_2=c&keyword=30983738204\",\"ad_feedback_beacon\":\"https://us.af.beap.bc.yahoo.com/af?bv=1.0.0&bs=(15gu7hpid(gid$671c4f2a-8d43-11e5-b941-1bb786c378b1-7ff60fbf3700,st$1447775633710000,li$0,cr$30983738204,dmn$m25151,srv$3,exp$1447782833710000,ct$27,v$1.0,adv$956382,pbid$1,seid$4964388))&r=1447775633710&al=$(AD_FEEDBACK)\",\"advertiser_id\":\"956382\",\"objective\":\"PROMOTE_CONTENT\",\"passThroughFields\":\"\",\"image\":\"http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/7a0564f3dd79a2a29b2b9e4fb3b56f89.png\",\"hqImage\":\"https://s.yimg.com/av/moneyball/ads/1415994571291-4821.jpg\",\"origImg\":\"\",\"secImage\":\"https://s.yimg.com/av/curveball/ads/pr/RESIZE/82x82/7a0564f3dd79a2a29b2b9e4fb3b56f89.png\",\"secHqImage\":\"https://s.yimg.com/av/moneyball/ads/1415994571291-4821.jpg\",\"imageHeight\":82,\"imageWidth\":82,\"hqImageHeight\":627,\"hqImageWidth\":1200,\"origImgHeight\":-1,\"origImgWidth\":-1}"
+      }
+   ],
+   "adsRequested" : 8,
+   "adserverLatency" : 9.000000000000000e-06,
+   "section" : {
+      "id" : 4964388
+   },
+   "serverIp" : "fe4.cbs.cb.bf1.yahoo.com",
+   "status" : "0",
+   "totalAds" : 2,
+   "totalLatency" : 0.0246340,
+   "userCountry" : "KW",
+   "version" : "2"
+})
