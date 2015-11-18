@@ -2,7 +2,7 @@
 
   body {
    font-family: 'Source Sans Pro', sans-serif;
-   background: #999999;
+   background: black;
    width: 100%;
 
   }
@@ -24,7 +24,7 @@
  #web-pic {
  	background-size: cover;
  }
-.contact-button{
+.contact-button {
 	display: inline-block;
 	margin: 0 auto;
 	margin-right: 20px;
@@ -53,7 +53,7 @@ a:link, a:visited {
    }
 
    #udacity-logo {
-   	width: 15%;
+   	width: 50px;
    	bottom: 0;
    	position: absolute;
    	margin: 4%;

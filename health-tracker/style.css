@@ -1,0 +1,11 @@
+body {
+	background-color: #d27979;
+	font-family: "Courier New";
+}
+
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+}
