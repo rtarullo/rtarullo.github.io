@@ -4,15 +4,18 @@
   <title>Rose's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+  <script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <script src="bower_components/platform/platform.js"></script>
+          <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
+    </script>
   <script src="components/webcomponentsjs/webcomponents-lite.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="import" 
         href="/bower_components/iron-flex-layout/iron-flex-layout.html">
-        <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
-    </script>
-  <script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js">
-  </script>
-  <script src="bower_components/platform/platform.js"></script>
+
+  
+  
+  
   <script src="platform.js"></script>
   <script src="main.js"></script>
   <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
@@ -25,22 +28,23 @@
         href="/bower_components/paper-drawer-toggle/paper-drawer-toggle.html">
   <link rel="import" 
         href="/bower_components/paper-toolbar/paper-toolbar.html">
-  <link rel="import" 
-        href="/bower_components/paper-menu-button/paper-menu-button.html">
-  <link rel="import" 
-        href="/bower_components/iron-icons/iron-icons.html">
-  <link rel="import" 
-        href="/bower_components/iron-flex-layout/iron-flex-layout.html">
-        <link rel="import" 
+ <!--  <link rel="import" 
+        href="/bower_components/paper-menu-button/paper-menu-button.html"> -->
+  <!-- <link rel="import" 
+        href="/bower_components/iron-icons/iron-icons.html"> -->
+ <!--  <link rel="import" 
+        href="/bower_components/iron-flex-layout/iron-flex-layout.html"> -->
+        <!-- <link rel="import" 
         href="/bower_components/paper-icon-button/paper-icon-button.html">
         <link rel="import" 
-        href="/bower_components/paper-tooltip/paper-tooltip.html">
+        href="/bower_components/paper-tooltip/paper-tooltip.html"> -->
         <link rel="import" 
         href="/bower_components/paper-ripple/paper-ripple.html">
 
 
 </head>
 <body>
+<div id="wrap">
 <paper-drawer-panel>
   <paper-header-panel drawer>
     <paper-toolbar>
@@ -48,7 +52,6 @@
     </paper-toolbar>
     <div>
        <aside>
-
     <div class="project-title">
       
       
@@ -56,23 +59,23 @@
       <div id="arcade-space">
       <div id="arcade-label">
       <paper-ripple></paper-ripple>
-      <a href="http://google.com" alt="Arcade Game"><img class="featured" src="img/arcade.jpg"/><span id="featured-text">Arcade Game</span></a>
+      <a href="http://google.com" alt="Arcade Game"><img class="featured" src="img/small-arcade-min.jpg" /><span id="featured-text">Arcade Game</span></a>
       </div>
       <div id="web-label">
       <paper-ripple></paper-ripple>
-      <a href="http://google.com" alt="Website Optimization"><img class="featured" src="img/computer.jpg"/><span id="featured-text">Website Optimization</span></a>
+      <a href="http://google.com" alt="Website Optimization"><img class="featured" src="img/big-computer.jpg" srcset="img/small-computer.jpg 480w, img/big-computer.jpg 1024w, img/high-density-computer.jpg 1024w 2x "/><span id="featured-text">Website Optimization</span></a>
       </div>
       <div id="health-label">
       <paper-ripple></paper-ripple>
-      <a href="http://google.com" alt="Health Tracker"><img class="featured" src="img/health.jpg"/><span id="featured-text">Health Tracker</span></a>
+      <a href="http://google.com" alt="Health Tracker"><img class="featured" src="img/big-health.jpg" srcset="img/small-health.jpg 480w, img/big-health.jpg 1024w, img/high-density-health.jpg 1024w 2x "/><span id="featured-text">Health Tracker</span></a>
       </div>
       <div id="neighborhood-label">
       <paper-ripple></paper-ripple>
-      <a href="http://google.com" alt="Neightborhood Map"><img class="featured" src="img/map.jpg"/><span id="featured-text">Neighborhood Map</span></a>
+      <a href="http://google.com" alt="Neightborhood Map"><img class="featured" src="img/big-map.jpg" srcset="img/small-map.jpg 480w, img/big-map.jpg 1024w, img/high-density-map.jpg 1024w 2x "/><span id="featured-text">Neighborhood Map</span></a>
       </div>
       <a href="http://udacity.com" alt="Udacity"><img id="udacity-logo" src="udacity-logo.jpg" alt="Udacity Logo"></a>
       </div>
-
+<!-- srcset="img/small-arcade.jpg 480w, img/big-arcade.jpg 1024w, img/high-density-arcade.jpg 1024w 2x " -->
       
       </div>
     </aside>
@@ -89,24 +92,33 @@
 
 
     <article>
-    
+    <img src="img/low-density-photo.jpg" srcset="img/small-photo.jpg 480w, img/big-photo.jpg 1024w, img/high-density-photo.jpg 1024w 2x "/>
+
     <div class="name-content">
       <h1>ROSE TARULLO</h1>
-      <p>front-end web development student</p>
-    </div>
-    </article>
+      <p>studying front-end web development</p>
+      </div>
+      </article>
+      <footer>
+      <a href="http://linkedin.com/in/rosetarullo"><p class="contact-button">linkedIn</p></a>
+      <a href="https://drive.google.com/file/d/0Bx3WQ9x94YUiamZWaUMtazNMRXc/view?usp=sharing"><p class="contact-button">resume</p></a>
+      <a href="mailto:rose.tarullo@gmail.com"><p class="contact-button">e-mail</p></a>
+    
+    </footer>
+   <!--  <footer>
+     <div id="contact-information">
+
+      <a href="http://linkedin.com/in/rosetarullo"><p class="contact-button">linkedIn</p></a>
+      <p class="contact-button">resume</p>
+      <a href="mailto:rose.tarullo@gmail.com"><p class="contact-button">e-mail</p></a>
+      </div>
+     </footer> -->
+    
  <!-- </main>
  <footer>footer</footer> --> 
 
     </div>
-     <footer>
-     <div id="contact-information">
-
-      <a href="http://linkedin.com/in/rosetarullo"><p class="contact-button">linkedIn</p></a>
-      <p class="contact-button">Resume</p>
-      <a href="mailto:rose.tarullo@gmail.com"><p class="contact-button">E-Mail</p></a>
-      </div>
-     </footer>
+     
   </paper-header-panel>
 </paper-drawer-panel>
 <!--  <header>
@@ -138,6 +150,6 @@
     <! <aside>aside</aside> -->
 
  </main>
-  
+ </div>
 </body>
 </html>
