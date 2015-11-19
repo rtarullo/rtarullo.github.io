@@ -1,37 +1,28 @@
-  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
-  body {
-   font-family: 'Source Sans Pro', sans-serif;
-   background: black;
-   width: 100%;
-
-  }
-#wrap {
-	width: 700px;
-	margin: 0 auto;
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: black;
 }
- 
 
-  main {
-   min-height: 600px;
-   margin: 0px;
-   padding: 0px;
-   display: -webkit-flex;
-   display:         flex; 
-   background-size: cover;
-   }
+aside {
+    -webkit-flex: 1 6 300px;
+    flex: 1 6 300px;
+    -webkit-order: 1;
+    order: 1;
+    position: relative;
+    padding: 3%;
+}
 
- #web-pic {
- 	background-size: cover;
- }
-.contact-button {
-	display: inline-block;
-	margin: 0 auto;
-	margin-right: 20px;
-	margin-left: 30px;
-	margin-top: 25px;
-	box-sizing: border-box;
-	/*cursor: pointer;*/
+#featured-space {
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-bottom: 20%;
+	margin-top: 10%;
+}
+
+#arcade-label,#web-label, #health-label, #neighborhood-label {
+ 	position: relative;
 }
 
 a:link, a:visited {
@@ -39,111 +30,75 @@ a:link, a:visited {
     color: white;
 }
 
-   .name-content {
-   	position: absolute;
-   	right: 0;
-   	top: 10%;
-   	padding-right: 2%;
-   	padding-left: 35%;
-   	display: block;
-   	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-   	color: white;
-   	background-color: black;
-    opacity: .8;
-   }
-
-   #udacity-logo {
-   	width: 50px;
-   	bottom: 0;
-   	position: absolute;
-   	margin: 4%;
-   	left: 0;
-   }
- #arcade-label,#web-label, #health-label, #neighborhood-label {
- 	position: relative;
- }
-
-
-   article {
-   -webkit-flex: 3 1 60%;
-           flex: 3 1 60%;
-   -webkit-order: 2;
-           order: 2;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-   }
-
-   article img {
-      	width: 100%;
-   	position: absolute;
-   	display: block;
-   	z-index: -1;
-   	min-width: 1024px;
-   }
-  
-  aside {
-   -webkit-flex: 1 6 300px;
-           flex: 1 6 300px;
-   -webkit-order: 1;
-           order: 1;
-           position: relative;
-           padding: 3%;
-   }
+.featured {
+ 	width: 150px;
+ 	display: block;
+ 	border: 3px solid black;
+ 	margin-bottom: 15%;
+}
 
 #featured-text {
 	position: absolute;
 	bottom: 5px;
-	/*width: 100%;*/
 	color: white;
 	left: 5px;
 	font-weight: bold;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
- .featured {
- 	width: 150px;
- 	display: block;
- 	border: 3px solid black;
- 	margin-bottom: 15%;
-
-
- }
-
-#arcade-space {
-	 	padding-left: 17%;
-	 	padding-right: 17%;
-	 	padding-bottom: 20%;
-	 	 	margin-top: 10%;
-
+#udacity-logo {
+   	width: 50px;
+   	bottom: 0;
+   	position: absolute;
+   	margin: 4%;
+   	left: 0;
 }
- footer {
-   height: 75px;
-   background: #3f51b5;
-   bottom: 0;
-   position: fixed;
-   width: 100%;
-   }
 
-  @media all and (max-width: 640px) {
-  
-   main {
-    -webkit-flex-flow: column;
-            flex-direction: column;
-   }
+main {
+	min-height: 600px;
+	margin: 0px;
+	padding: 0px;
+	display: -webkit-flex;
+	display: flex;
+}
 
-   article {
-    -webkit-order: 1;
-            order: 1;
-    min-height: 400px;
-   }
-  
-   aside, footer {
-    min-height: 50px;
-    max-height: 100%;
-   }
-  }
+article {
+    -webkit-flex: 3 1 60%;
+    flex: 3 1 60%;
+    -webkit-order: 2;
+    order: 2;
+    position: relative;
+}
 
-  footer {
-  	flex-direction: column;
-  }
+article img {
+    width: 100%;
+   	position: absolute;
+   	display: block;
+   	z-index: -1;
+   	min-width: 1024px;
+}
+
+.name-content {
+	position: absolute;
+   	right: 0;
+   	top: 10%;
+   	padding-right: 2%;
+   	padding-left: 35%;
+   	color: white;
+   	background-color: black;
+    opacity: .8;
+}
+
+footer {
+    height: 75px;
+    background: #3f51b5;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.contact-button {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 25px;
+}
