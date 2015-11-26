@@ -6,7 +6,7 @@ body {
 	max-width: 1035px;
 }
 
-/*Header*/
+/*Aside - Featured Projects*/
 aside {
     -webkit-flex: 1 6 300px;
     flex: 1 6 300px;
@@ -89,7 +89,7 @@ article {
     opacity: 0.8;
 }
 
-/*Footer*/
+/*Footer - Contact Info*/
 footer {
     height: 75px;
     background: #3f51b5;
