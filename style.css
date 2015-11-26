@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	background: black;
+	font-family: "Source Sans Pro", sans-serif;
+	background: #000;
 	max-width: 1035px;
 }
 
+/*Header*/
 aside {
     -webkit-flex: 1 6 300px;
     flex: 1 6 300px;
@@ -15,50 +16,50 @@ aside {
     padding: 3%;
 }
 
-#featured-space {
-	padding-left: 17%;
-	padding-right: 17%;
-	padding-bottom: 20%;
-	margin-top: 10%;
+.featured-space {
+	padding: 0 17% 20% 17%;
+	top: 10%;
 }
 
-#arcade-label,#web-label, #health-label, #neighborhood-label {
+.arcade-label,
+.web-label,
+.health-label,
+.neighbor-label {
  	position: relative;
 }
 
 a:link, a:visited {
 	text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 .featured {
  	width: 150px;
  	display: block;
- 	border: 3px solid black;
+ 	border: 3px solid #000;
  	margin-bottom: 15%;
 }
 
-#featured-text {
+.featured-text {
 	position: absolute;
+	left: 5px;
 	bottom: 5px;
 	color: white;
-	left: 5px;
 	font-weight: bold;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
-#udacity-logo {
+.udacity {
    	width: 50px;
-   	bottom: 0;
    	position: absolute;
-   	margin: 4%;
+   	padding: 4%;
    	left: 0;
+   	bottom: 0;
 }
 
+/*Main*/
 main {
 	min-height: 600px;
-	margin: 0px;
-	padding: 0px;
 	display: -webkit-flex;
 	display: flex;
 }
@@ -71,11 +72,10 @@ article {
     position: relative;
 }
 
-article img {
+.web-pic {
     width: 100%;
    	position: absolute;
    	display: block;
-   	z-index: -1;
    	min-width: 1024px;
 }
 
@@ -83,13 +83,13 @@ article img {
 	position: absolute;
    	right: 0;
    	top: 10%;
-   	padding-right: 2%;
-   	padding-left: 35%;
+   	padding: 0 2% 0 35%;
    	color: white;
-   	background-color: black;
-    opacity: .8;
+   	background: #000;
+    opacity: 0.8;
 }
 
+/*Footer*/
 footer {
     height: 75px;
     background: #3f51b5;
@@ -100,6 +100,5 @@ footer {
 
 .contact-button {
 	display: inline-block;
-	margin-left: 50px;
-	margin-top: 25px;
+	margin: 25px 0 0 50px;
 }
