@@ -4,7 +4,6 @@
   <title>Rose's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
   <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
@@ -18,7 +17,7 @@
 </head>
 
 <body>
-<!-- Polymer elements used to enhance UX -->
+<!-- Polymer elements Paper Drawer Panel and Paper Ripple used to enhance UX -->
 <paper-drawer-panel>
   <paper-header-panel drawer>
     <paper-toolbar></paper-toolbar>
@@ -28,21 +27,30 @@
       <!-- TODO: Upload projects as they are completed -->
         <div class="arcade-label">
           <paper-ripple></paper-ripple>
-          <a href="http://rtarullo.github.io/arcade-game"><img class="featured" src="img/small-arcade-min.jpg" alt="Arcade Game"><span class="featured-text">Arcade Game</span></a>
+          <a href="http://rtarullo.github.io/arcade-game">
+          <img class="featured" src="img/small-arcade-min.jpg" alt="Arcade Game">
+          <span class="featured-text">Arcade Game</span></a>
         </div>
         <div class="web-label">
           <paper-ripple></paper-ripple>
-          <a href="http://rtarullo.github.io/web-optimization"><img class="featured" src="img/small-computer-min.jpg" alt="Website Optimization"><span class="featured-text">Website Optimization</span></a>
+          <a href="http://rtarullo.github.io/web-optimization">
+          <img class="featured" src="img/small-computer-min.jpg" alt="Website Optimization">
+          <span class="featured-text">Website Optimization</span></a>
         </div>
         <div class="health-label">
           <paper-ripple></paper-ripple>
-          <a href="http://rtarullo.github.io/health-tracker"><img class="featured" src="img/small-health-min.jpg" alt="Health Tracker"><span class="featured-text">Health Tracker</span></a>
+          <a href="http://rtarullo.github.io/health-tracker">
+          <img class="featured" src="img/small-health-min.jpg" alt="Health Tracker">
+          <span class="featured-text">Health Tracker</span></a>
         </div>
         <div class="neighbor-label">
           <paper-ripple></paper-ripple>
-          <a href="http://rtarullo.github.io/neighborhood-map"><img class="featured" src="img/small-map-min.jpg" alt="Neightborhood Map"><span class="featured-text">Neighborhood Map</span></a>
+          <a href="http://rtarullo.github.io/neighborhood-map">
+          <img class="featured" src="img/small-map-min.jpg" alt="Neightborhood Map">
+          <span class="featured-text">Neighborhood Map</span></a>
         </div>
-        <a href="http://udacity.com" alt="Udacity"><img class="udacity" src="img/udacity-logo.jpg" alt="Udacity Logo"></a>
+        <a href="http://udacity.com" alt="Udacity">
+        <img class="udacity" src="img/udacity-logo.jpg" alt="Udacity Logo"></a>
       </div>
     </aside>
   </paper-header-panel>
@@ -50,19 +58,27 @@
     <paper-toolbar>
       <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
     </paper-toolbar>
+    <!-- Main contains the large picture and an article that includes my name with a small description. -->
     <main>
       <article>
-        <img class="web-pic" srcset="img/small-web.jpg 500w, img/web.jpg 1000w, img/big-web.jpg 1500w" src="img/web.jpg" alt="Spider Web">
+        <img class="web-pic" src="img/web.jpg"
+        srcset="img/small-web.jpg 500w, img/web.jpg 1000w, img/big-web.jpg 1500w"
+        sizes="100vw"
+        alt="Spider Web">
         <div class="name-content">
           <h1>ROSE TARULLO</h1>
           <p>studying front-end web development</p>
         </div>
       </article>
+      <!-- Footer contains three contact links. -->
       <footer>
-        <a href="http://linkedin.com/in/rosetarullo"><p class="contact-button">linkedIn</p></a>
+        <a href="http://linkedin.com/in/rosetarullo">
+        <p class="contact-button">linkedIn</p></a>
         <!-- TODO: upload updated resume page -->
-        <a href="https://drive.google.com/file/d/0Bx3WQ9x94YUiamZWaUMtazNMRXc/view?usp=sharing"><p class="contact-button">resume</p></a>
-        <a href="mailto:rose.tarullo@gmail.com"><p class="contact-button">e-mail</p></a>
+        <a href="https://drive.google.com/file/d/0Bx3WQ9x94YUiamZWaUMtazNMRXc/view?usp=sharing">
+        <p class="contact-button">resume</p></a>
+        <a href="mailto:rose.tarullo@gmail.com">
+        <p class="contact-button">e-mail</p></a>
       </footer>
     </main>
   </paper-header-panel>
