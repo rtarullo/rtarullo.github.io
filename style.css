@@ -28,7 +28,8 @@ aside {
  	position: relative;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
 	text-decoration: none;
     color: #fff;
 }
@@ -57,7 +58,7 @@ a:link, a:visited {
    	bottom: 0;
 }
 
-/*Main*/
+/*Main - Name and Contact Information*/
 main {
 	min-height: 600px;
 	display: -webkit-flex;
@@ -84,21 +85,14 @@ article {
    	right: 0;
    	top: 10%;
    	padding: 0 2% 0 35%;
-   	color: white;
+   	color: #fff;
    	background: #000;
     opacity: 0.8;
 }
 
-/*Footer - Contact Info*/
-footer {
-    height: 75px;
-    background: #3f51b5;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
 .contact-button {
 	display: inline-block;
-	margin: 25px 0 0 50px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
 }
