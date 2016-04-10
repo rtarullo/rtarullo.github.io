@@ -94,8 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 .wrap {
@@ -310,6 +310,7 @@ header h1 {text/javascript
     text-align: center;
     margin-left: 30%;
     display: block;
+    margin-top:5%;
 }
 
 .projects a {

@@ -1,214 +1,98 @@
-body,
-div,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding:0;
-  margin:0;
-  font-family: "Roboto", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: #000;
+  max-width: 1035px;
 }
 
-.clear-fix {
-  overflow: auto;
+/*Aside - Featured Projects*/
+aside {
+    -webkit-flex: 1 6 300px;
+    flex: 1 6 300px;
+    -webkit-order: 1;
+    order: 1;
+    position: relative;
+    padding: 3%;
 }
 
-.education-entry,
-.work-entry,
-.project-entry {
-  padding: 0 5%;
+.featured-space {
+  padding: 0 17% 20% 17%;
+  top: 10%;
 }
 
-h1 {
-  font-size: 40px;
-  color: #f5a623;
-  line-height: 48px;
-  display: inline;
+.arcade-label,
+.web-label,
+.health-label,
+.neighbor-label {
+  position: relative;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999;
-  line-height: 29px;
-  padding: 10px;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
-}
-
-h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4a4a4a;
-  line-height: 17px;
-}
-
-h2,
-h3,
-h4,
-h5 {
-  padding:10px 5%;
-
-}
-
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: left;
-}
-
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: right;
-
-}
-
-p {
-  font-size: 14px;
-  color: #333;
-  line-height: 21px;
-}
-
-a {
-  color: #1199c3;
+a:link,
+a:visited {
   text-decoration: none;
-  margin-top: 10px;
+    color: #fff;
+}
+
+.featured {
+  width: 150px;
   display: block;
+  border: 3px solid #000;
+  margin-bottom: 15%;
 }
 
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #f3f3f3;
-  line-height: 28px;
-}
-
-#skills-h3 {
-  color: #f5ae23;
-  display: none;
-}
-
-.orange {
-  background-color: #f5ae23;
-}
-
-.orange-text {
-  color: #f5ae23;
-}
-
-.white-text {
+.featured-text {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  color: white;
   font-weight: bold;
-  color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
-.gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
-  clear:both;
+.udacity {
+    width: 50px;
+    position: absolute;
+    padding: 4%;
+    left: 0;
+    bottom: 0;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
-}
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
-}
-
-.flex-box {
+/*Main - Name and Contact Information*/
+main {
+  min-height: 600px;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
 }
 
-.center-content {
-  padding: 2.5% 5%;
+article {
+    -webkit-flex: 3 1 60%;
+    flex: 3 1 60%;
+    -webkit-order: 2;
+    order: 2;
+    position: relative;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
-img {
-  padding: 10px;
-}
-
-span {
-  padding: 5px;
-}
-
-#lets-connect {
-  text-align: center;
-}
-
-/* Media queries to handle various device widths */
-
-@media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
-}
-
-#map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
-}
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
-@media only screen and (min-width: 750px) {
-  #skills-h3,
-  .biopic {
+.web-pic {
+    width: 100%;
+    position: absolute;
     display: block;
-  }
+    min-width: 1024px;
+}
+
+.name-content {
+  position: absolute;
+    right: 0;
+    top: 10%;
+    padding: 0 10% 0 35%;
+    color: #fff;
+    background: #000;
+    opacity: 0.8;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
 }
