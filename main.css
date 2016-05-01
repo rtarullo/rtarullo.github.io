@@ -298,6 +298,7 @@ textarea {
     padding-top: 12vw;
     text-align: center;
     text-shadow: .25vw .25vw .25vw silver;
+    font-size: 2vw;
 }
 
 .projects h1 {
