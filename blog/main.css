@@ -130,7 +130,7 @@ textarea {
 
 .page-header h1 {
     font-size: 1.4vw;
-    left: 6.5vw;
+    left: 5vw;
     display: block;
     position: absolute;
     top: 10vw;
@@ -407,8 +407,10 @@ footer {
 }
 
 footer img {
-    width: 10%;
+    width: 15%;
     padding: 2%;
+    top: -4vw;
+    position: relative;
 }
 
 /*footer h1, footer p {
