@@ -255,13 +255,24 @@ header h1 {text/javascript
     width: 100%;
     height: 40vw;
     overflow: hidden;
-    background-image: url("img/designback.jpg");
+    background-image: url("img/web.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
     z-index: 0;
 }
 
+.intro-blog {
+    top: 15vw;
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url("blog/img/designback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+}
 .intro-space {
     background-color: black;
     opacity: 0.4;
@@ -402,7 +413,7 @@ header h1 {text/javascript
 
 footer {
     position: relative;
-    /*top: 15vw;*/
+    top: 18vw;
     padding-bottom: 5vw;
 }
 
