@@ -386,7 +386,7 @@ footer h1 {
 
 footer hr {
     border: 1px solid black;
-    width: 80vw;
+    width: 77vw;
     top: 4.5vw;
     right: 0;
     position: absolute;
@@ -400,7 +400,7 @@ footer a, #vitsoe {
     position: absolute;
     left: 35vw;
     top: 5.5vw;
-    padding: 2vw;
+    padding: 4vw;
     display: inline-block;
     font-size: 1.5vw;
 }
@@ -409,7 +409,7 @@ footer a, #vitsoe {
     position: absolute;
     left: 65vw;
     top: 5.5vw;
-    padding: 2vw;
+    padding: 4vw;
     display: inline-block;
     font-size: 1.5vw;
 }
