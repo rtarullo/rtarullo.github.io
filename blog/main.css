@@ -107,23 +107,14 @@ textarea {
 }
 
 .page-header {
-
   position: fixed;
-
   left: 0;
-
   top: 0;
-
   width: 100%;
-
   height: 15vw;
-
   box-sizing: border-box;
-
   -webkit-transition: top 0.6s;
-
   -moz-transition: top 0.6s;
-
   transition: top 0.6s;
   background-color: white;
 }
@@ -136,40 +127,20 @@ textarea {
     top: 10vw;
 }
 
-.page-header.off-canvas { top: -69vw; }
+.page-header.off-canvas { 
+    top: -69vw; 
+}
 
 .page-header.fixed {
-
   top: 0;
-
-
-
   z-index: 9999;
-
 }
-
-
-/*header {
-    width: 100%;
-    height: 15vw;
-    box-sizing: border-box;
-    position: relative;padding-right
-}
-header h1 {text/javascript
-    font-size: 1.4vw;
-    left: 6%;
-    display: block;text/javascript
-    position: absolute;
-    bottom: 15%;
-}*/
 
 #logo {
     width: 10vw;
     display: block;
-    /*display: inline;*/
     margin: 2% 0 0 5%;
     bottom: 0%;
-
 }
 
 .menu {
@@ -178,14 +149,10 @@ header h1 {text/javascript
   font-size: 1.5vw;
   position: relative;
   top: -9vw;
-  /*bottom: 5%;*/
 }
 
 .menu ul {
   height: auto;
-  /*padding: 0.5% 0;*/
-
-  /*margin-bottom: 5.5%;*/
 }
 
 .menu li {
@@ -208,7 +175,6 @@ header h1 {text/javascript
     width: 80%;
     float: right;
     margin-right: 2%;
-    /*top: 5%;*/
 }
 
 
@@ -229,8 +195,6 @@ header h1 {text/javascript
     background-color: silver;
 }
 
-
-
 .page-links li {
     display: inline-block;
     margin-right: -4px;
@@ -239,7 +203,6 @@ header h1 {text/javascript
 
 .projects {
     width: 100%;
-    /*border: 1px solid black;*/
     padding: 25%;
     margin: 0;
 }
@@ -266,22 +229,17 @@ header h1 {text/javascript
     background-color: black;
     opacity: 0.4;
     position: absolute;
-    /*margin: 8% 15% 8% 15%;*/
-    /*padding: 1%;*/
     display: block;
-    /*bottom: 5vw;*/
     width: 100%;
     height: 100%;
     z-index: -1;
- 
-    /*box-sizing: border-box;*/
 }
 
 .intro-text {
     top: 50%;
     display: block;
-   color: white;
-   position: relative;
+    color: white;
+    position: relative;
     font-size: 1.5vw;
     text-align: center;
     z-index: 2;
@@ -334,7 +292,6 @@ header h1 {text/javascript
     padding: 1%;
     width: 40%;
     font-size: 3vw;
-    /*font-family: 'Source Sans Pro', sans-serif !important;*/
     font-weight: 500;
     text-align: center;
     margin-left: 30%;
@@ -360,7 +317,6 @@ header h1 {text/javascript
     padding: 20% 10% 10% 10%;
     font-size: 1.5vw;
     background-color: white;
-    /*z-index: 100;*/
 }
 
 #title {
@@ -393,16 +349,8 @@ header h1 {text/javascript
     position: relative;
 }
 
-/*#blog-space {
-    width: 100%;
-    position: absolute;
-    background-color: white;
-    top: -10%;
-}*/
-
 footer {
     position: relative;
-    /*top: 15vw;*/
     padding-bottom: 5vw;
 }
 
@@ -412,10 +360,6 @@ footer img {
     top: -4vw;
     position: relative;
 }
-
-/*footer h1, footer p {
-    position: absolute;
-}*/
 
 footer h1 {
     position: absolute;
@@ -428,7 +372,6 @@ footer h1 {
 footer hr {
     border: 1px solid black;
     width: 80vw;
-    /*float: right;*/
     top: 4.5vw;
     right: 0;
     position: absolute;

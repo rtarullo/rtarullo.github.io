@@ -297,6 +297,7 @@ header h1 {text/javascript
     text-align: center;
     z-index: 2;
     font-family: 'Lato', sans-serif;
+    text-shadow: .25vw .25vw .25vw black;
 }
 
 
@@ -338,10 +339,13 @@ header h1 {text/javascript
     padding: 0;
     padding-top: 12vw;
     text-align: center;
+    text-shadow: .25vw .25vw .25vw silver;
 }
 
 .projects h1 {
-    background-color: white;
+    /*background-color: white;*/
+    color: white;
+    text-shadow: .25vw .25vw .25vw black;
     padding: 1%;
     width: 40%;
     font-size: 3vw;
@@ -355,7 +359,7 @@ header h1 {text/javascript
 
 .projects a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #project-1 a:hover, #project-2 a:hover, #project-3 a:hover {
