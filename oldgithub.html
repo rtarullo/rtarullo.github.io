@@ -1,0 +1,694 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Rose Tarullo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="img/logo.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="wrap">
+            <div id="content-wrap">
+                <header class="page-header">
+                <img id="logo" src="img/logo.png">
+                <h1>ROSE TARULLO</h1>
+                    <div class="menu">
+                        <ul>
+                          <li><a href="http://rtarullo.github.io">Home</a></li>
+                          <li><a href="http://rtarullo.github.io/blog">Blog</a></li>
+                          <li><a href="404.html">Projects</a></li>
+                          <li><a href="404.html">Contact</a></li>
+                        </ul>
+                        <hr>
+                    </div>
+                </header>
+                <main>
+                    <div class="intro">
+                        <div class="intro-space"></div>
+                        <div class="intro-text">
+                            <h1>About</h1>
+                            <p>I am a current UX Design student living in Chicago, IL. This is an incomplete page at the moment.</p>
+                        </div>
+                    </div>
+                    <div class="projects" id="project-1">
+                    <h1><a href="404.html">Project Holder</a></h1></div>
+                    <div class="projects" id="project-2"><h1><a href="404.html">Project Holder</a></h1></div>
+                    <div class="projects" id="project-3"><h1><a href="404.html">Project Holder</a></h1></a></div>
+                </main>
+            </div>
+        </div>
+        <footer>
+            <img src="img/logo.png" alt="Rose Tarullo Logo">
+            <h1>Contact</h1>
+            <hr>
+            <p id="email"><a href="mailto:rose.tarullo@gmail.com">rose.tarullo@gmail.com</a></p>
+            <p id="phone">(630) 317-4476</p>
+            <!-- <p id="symbols">&#x0219E;     &#x021A0;</p> -->
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+      <script type="text/javascript">
+            (function($){
+  $(function(){ 
+    var scroll = $(document).scrollTop();
+    var headerHeight = $('.page-header').outerHeight();
+     
+    $(window).scroll(function() {
+      var scrolled = $(document).scrollTop();
+      if (scrolled > headerHeight){
+        $('.page-header').addClass('off-canvas');
+      } else {
+        $('.page-header').removeClass('off-canvas');
+    }
+ 
+        if (scrolled > scroll){
+         $('.page-header').removeClass('fixed');
+        } else {
+        $('.page-header').addClass('fixed');
+        }            
+      scroll = $(document).scrollTop(); 
+     });
+        
+   });
+})(jQuery);
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','rtarullo.github.io','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0;
+}
+
+.page-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 15vw;
+  box-sizing: border-box;
+  -webkit-transition: top 0.6s;
+  -moz-transition: top 0.6s;
+  transition: top 0.6s;
+  background-color: white;
+}
+
+.page-header h1 {
+    font-size: 1.4vw;
+    left: 5vw;
+    display: block;
+    position: absolute;
+    top: 10vw;
+}
+
+.page-header.off-canvas { 
+    top: -69vw;
+}
+
+.page-header.fixed {
+  top: 0;
+  z-index: 9999;
+}
+
+#logo {
+    width: 10vw;
+    display: block;
+    margin: 2% 0 0 5%;
+    bottom: 0%;
+}
+
+.menu {
+  width: 100%;
+  text-align: right;
+  font-size: 1.5vw;
+  position: relative;
+  top: -9vw;
+}
+
+.menu ul {
+  height: auto;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 5%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
+
+.menu a:hover {
+  color: silver;
+}
+
+.menu hr {
+    border: 1px solid black;
+    width: 78vw;
+    float: right;
+    margin-right: 2%;
+}
+
+
+.page-links ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.page-links a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s background-color;
+}
+
+.page-links a:hover {
+    background-color: silver;
+}
+
+.page-links li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
+.projects {
+    width: 100%;
+    padding: 25%;
+    margin: 0;
+}
+
+.projects h1 {
+    width: 100%;
+    margin: 0;
+}
+
+
+.intro {
+    top: 15vw;
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url("img/web.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.intro-blog {
+    top: 15vw;
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url("blog/img/designback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+}
+.intro-space {
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.intro-text {
+    top: 50%;
+    display: block;
+    color: white;
+    position: relative;
+    font-size: 1.5vw;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+    text-shadow: .25vw .25vw .25vw black;
+}
+
+
+
+.projects {
+    width: 100%;
+    top: 15vw;
+    height: 30vw;
+    overflow: hidden;
+    background-image: url("img/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 12vw;
+}
+
+#project-1 {
+    background-image: url("img/blog1.jpg");
+}
+
+#project-2 {
+    background-image: url("img/recipes.jpg");
+}
+
+#project-3 {
+    background-image: url("img/tree4.jpg");
+}
+
+#construct {
+    width: 100%;
+    top: 15vw;
+    height: 50vw;
+    overflow: hidden;
+    background-image: url("construction.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 12vw;
+    text-align: center;
+    text-shadow: .25vw .25vw .25vw silver;
+    font-size: 2vw;
+}
+
+.projects h1 {
+    color: white;
+    text-shadow: .25vw .25vw .25vw black;
+    padding: 1%;
+    width: 40%;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 30%;
+    display: block;
+    margin-top:5%;
+}
+
+.projects a {
+    text-decoration: none;
+    color: white;
+}
+
+#project-1 a:hover, #project-2 a:hover, #project-3 a:hover {
+    color: silver;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+#blog {
+    padding: 20% 10% 10% 10%;
+    font-size: 2vw;
+    background-color: white;
+}
+
+#title {
+    font-size: 2vw;
+}
+
+#khan, #fun {
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+
+.pic {
+    margin-top: 7%;
+}
+
+#blog p, #blog h2 {
+    margin-top: 7%;
+}
+
+#jaws, #dude {
+    width: 60%;
+    left: 20%;
+    position: relative;
+}
+
+#hoodie, #poncho {
+    width: 50%;
+    left: 25%;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    top: 18vw;
+    padding-bottom: 5vw;
+}
+
+footer img {
+    width: 15%;
+    padding: 2%;
+    top: -4vw;
+    position: relative;
+}
+
+footer h1 {
+    position: absolute;
+    margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+footer hr {
+    border: 1px solid black;
+    width: 77vw;
+    top: 4.5vw;
+    right: 0;
+    position: absolute;
+}
+
+footer a, #vitsoe {
+    color: black;
+}
+
+#email {
+    position: absolute;
+    left: 35vw;
+    top: 5.5vw;
+    padding: 4vw;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+#phone {
+    position: absolute;
+    left: 65vw;
+    top: 5.5vw;
+    padding: 4vw;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+#symbols {
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

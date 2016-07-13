@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:700);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -98,217 +95,308 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+.wrap {
+    width: 100%;
     margin: 0;
 }
 
-body h1 {
-  font-size: 3vw;
-    font-family: 'Alegreya Sans', sans-serif;
-}
+.page-header {
 
-body  h2 {
-  font-size: 2vw;
-  font-family: 'Josefin Slab', serif;
-}
+  position: fixed;
 
-header {
+  left: 0;
+
+  top: 0;
+
   width: 100%;
-    height: 9vw;
-    padding: 2%;
-    box-sizing: border-box;
-    background-color: #4B8BB8;
-    background-size: 100%;
-    position: relative;
-    z-index: 0;
-}
 
-header h1 {
-  /*font-family: 'Alegreya Sans', sans-serif;*/
-  color: white;
-  /*font-size: 3vw;*/
-}
+  height: 15vw;
 
-header img {
-  height: 7vw;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-
-.intro {
-      width: 100%;
-    height: 45vw;
-    padding: 0;
-    overflow: hidden;
-    background-image: url("img/tunnel.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    z-index: 0;
-}
-
-.intro h1 {
-  color: white;
-}
-
-.intro h2 {
-  color: white;
-  
-font-family: 'Josefin Slab', serif;
-
-}
-
-.info {
-  position: relative;
-  left: 5%;
-  top: 5%;
-}
-
-#button {
-    background-color: #4B8BB8;
-    /*-moz-border-radius: 5px;*/
-    /*-webkit-border-radius: 5px;*/
-    /*border-radius:6px;*/
-    color: white;
-    font-family: 'Josefin Slab', serif;
-    font-size: 1vw;
-    padding: 0.7vw;
-    text-decoration: none;
-    cursor: pointer;
-    border:none;
-}
-
-
-
-#button:hover {
-    border: none;
-    background: #3C7298;
-    box-shadow: 0px 0px 1px #777;
-}
-/*.intro, .blog {
-    width: 100%;
-    height: 30vw;
-    padding: 0;
-    overflow: hidden;
-    background-image: url("img/top.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    z-index: 0;
-}*/
-
-/*header, .blog-content p {
-    margin-left: 50px;
-    margin-right: 50px;
-}*/
-
-/*.menu img {
-    width: 20px;
-    margin: 10px;
-}
-h1, p {
-    text-align: center;
-}*/
-
-/*p, li {
-    font-size: 2.5vw;
-    text-align: center;
-}*/
-
-.card-space {
-  width: 100%;
-  margin: 0;
-  position: relative;
-  background-color: silver;
-  height: 32vw;
-  background-size: 100%;
-}
-
-.card {
-  width: 33.3%;
-  /*position: absolute;*/
-  background-color: white;
-  display: inline-block;
-  float: left;
-  height: 100%;
-  margin: 0;
-  text-align: center;
-  padding: 5.5%;
   box-sizing: border-box;
+
+  -webkit-transition: top 0.6s;
+
+  -moz-transition: top 0.6s;
+
+  transition: top 0.6s;
+  background-color: white;
 }
 
-footer {
-  width: 100%;
-    height: 6vw;
-    padding: 2%;
-    box-sizing: border-box;
-    background-color: #4B8BB8;
-    background-size: 100%;
-    position: relative;
-    z-index: 0;
+.page-header h1 {
+    font-size: 1.4vw;
+    left: 6.5vw;
+    display: block;
+    position: absolute;
     top: 10vw;
 }
 
+.page-header.off-canvas { top: -69; }
 
-/*.menu {
+.page-header.fixed {
+
+  top: 0;
+
+
+
+  z-index: 9999;
+
+}
+
+
+/*header {
     width: 100%;
-    margin: 0 auto;
+    height: 15vw;
+    box-sizing: border-box;
+    position: relative;padding-right
 }
-
-
-a {
-    text-decoration: none;
-    color: purple;
-}
-
-.menu li {
-    display: inline;
-    align-content: center;
-
-}
-
-.blog {
-    background-image: url("img/middle.jpg");
+header h1 {text/javascript
+    font-size: 1.4vw;
+    left: 6%;
+    display: block;text/javascript
+    position: absolute;
+    bottom: 15%;
 }*/
 
-@media only screen and (min-width: 414px) {
-    p {
-        font-size: 12px;
-    }
+#logo {
+    width: 10vw;
+    display: block;
+    /*display: inline;*/
+    margin: 2% 0 0 5%;
+    bottom: 0%;
+
 }
 
-
-/*.menu {
+.menu {
   width: 100%;
   text-align: right;
   font-size: 1.5vw;
   position: relative;
   top: -9vw;
-}*/
+  /*bottom: 5%;*/
+}
 
-/*.menu ul {
+.menu ul {
   height: auto;
-}*/
+  /*padding: 0.5% 0;*/
 
-/*.menu li {
+  /*margin-bottom: 5.5%;*/
+}
+
+.menu li {
   display: inline;
   margin-right: 5%;
-}*/
+}
 
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
 
-/*
 .menu a:hover {
   color: silver;
 }
 
 .menu hr {
     border: 1px solid black;
-    width: 78vw;
+    width: 80%;
     float: right;
-    margin-right: 2%;
+    /*top: 5%;*/
 }
-*/
+
+
+.page-links ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.page-links a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s background-color;
+}
+
+.page-links a:hover {
+    background-color: silver;
+}
+
+
+
+.page-links li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
+.projects {
+    width: 100%;
+    /*border: 1px solid black;*/
+    padding: 25%;
+    margin: 0;
+}
+
+.projects h1 {
+    width: 100%;
+    margin: 0;
+}
+
+
+.intro {
+    top: 15vw;
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url("../img/web.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.intro-space {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    margin: 8% 15% 8% 15%;
+    padding: 1%;
+    display: block;
+    /*bottom: 5vw;*/
+    width: 68%;
+    height: 51%;
+    color: white;
+    font-size: 1.5vw;
+    /*box-sizing: border-box;*/
+}
+
+
+
+.projects {
+    width: 100%;
+    top: 15vw;
+    height: 30vw;
+    overflow: hidden;
+    background-image: url("../img/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 12vw;
+}
+
+#project-1 {
+    background-image: url("../img/blog.jpg");
+}
+
+#project-2 {
+    background-image: url("../img/recipes.jpg");
+}
+
+#project-3 {
+    background-image: url("../img/tree4.jpg");
+}
+
+.projects h1 {
+    background-color: white;
+    padding: 1%;
+    width: 40%;
+    font-size: 4vw;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 30%;
+    display: block;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
+}
+
+#project-1 a:hover, #project-2 a:hover, #project-3 a:hover {
+    color: silver;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+footer {
+    position: relative;
+    top: 15vw;
+    padding-bottom: 5vw;
+}
+
+footer img {
+    width: 10%;
+    padding: 2%;
+}
+
+/*footer h1, footer p {
+    position: absolute;
+}*/
+
+footer h1 {
+    position: absolute;
+    margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+footer hr {
+    border: 1px solid black;
+    width: 80vw;
+    /*float: right;*/
+    top: 4.5vw;
+    right: 0;
+    position: absolute;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#email {
+    position: absolute;
+    left: 35vw;
+    top: 5.5vw;
+    padding: 2vw;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+#phone {
+    position: absolute;
+    left: 65vw;
+    top: 5.5vw;
+    padding: 2vw;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+#symbols {
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -479,4 +567,3 @@ a {
         page-break-after: avoid;
     }
 }
-
