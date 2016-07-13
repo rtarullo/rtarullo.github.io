@@ -238,6 +238,11 @@ h1, p {
   box-sizing: border-box;
 }
 
+#h2 {
+  padding-top: 10%;
+  padding-bottom: 18%;
+}
+
 footer {
   width: 100%;
     height: 6vw;
@@ -247,8 +252,9 @@ footer {
     background-size: 100%;
     position: relative;
     z-index: 0;
-    top: 10vw;
+    top: 7vw;
 }
+
 
 
 /*.menu {
